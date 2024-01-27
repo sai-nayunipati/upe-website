@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/upe-website/static/css/main.e6c13ad2.css",
-    "main.js": "/upe-website/static/js/main.3e153b09.js",
+    "main.js": "/upe-website/static/js/main.a39eec24.js",
     "static/js/787.2fdd4a8d.chunk.js": "/upe-website/static/js/787.2fdd4a8d.chunk.js",
     "static/media/natalie_chen.jpg": "/upe-website/static/media/natalie_chen.4ebc7855f973a0c9564c.jpg",
     "static/media/andrew_pio_george.jpg": "/upe-website/static/media/andrew_pio_george.1ae972a2a18e1223b70a.jpg",
@@ -18,6 +18,7 @@
     "static/media/derek_roberts.jpg": "/upe-website/static/media/derek_roberts.2052051c0a28b0eedf41.jpg",
     "static/media/josh_yip.jpg": "/upe-website/static/media/josh_yip.b0c618f7c09f6fbcece9.jpg",
     "static/media/aboutBanner.jpg": "/upe-website/static/media/aboutBanner.d7a71f7554b83a3986d8.jpg",
+    "static/media/Project3.png": "/upe-website/static/media/Project3.8a6884b2522e621dae39.png",
     "static/media/tempIntern2.jpg": "/upe-website/static/media/tempIntern2.3d4834387156bba78a80.jpg",
     "static/media/ivan_khramtchenko.jpg": "/upe-website/static/media/ivan_khramtchenko.5b984a19d5dbc608f10d.jpg",
     "static/media/marcus_izumi.jpg": "/upe-website/static/media/marcus_izumi.94923224dc6f99475eba.jpg",
@@ -25,6 +26,7 @@
     "static/media/camille_christie.jpg": "/upe-website/static/media/camille_christie.76c630b478de44946ace.jpg",
     "static/media/Intern1.jpg": "/upe-website/static/media/Intern1.f1dada427f99d0cdd9a1.jpg",
     "static/media/aaron_ang.jpg": "/upe-website/static/media/aaron_ang.17abf8d3e8b6bb7a0128.jpg",
+    "static/media/Project4.png": "/upe-website/static/media/Project4.3aef0ceadb22d9d24250.png",
     "static/media/card2.jpg": "/upe-website/static/media/card2.b26906aa0583f6492fd3.jpg",
     "static/media/tsz_kit_wong.jpg": "/upe-website/static/media/tsz_kit_wong.855fb6c393df33e95419.jpg",
     "static/media/noah_barnes.jpg": "/upe-website/static/media/noah_barnes.c9213feeea019c5af22c.jpg",
@@ -36,16 +38,17 @@
     "static/media/lindsay_liu.jpg": "/upe-website/static/media/lindsay_liu.eb8498d87db9b4a048a1.jpg",
     "static/media/jason_jiang.jpg": "/upe-website/static/media/jason_jiang.e14ce5b8325e5f8b35a2.jpg",
     "static/media/Project2.png": "/upe-website/static/media/Project2.608747023d8b053dd4a6.png",
+    "static/media/Project5.png": "/upe-website/static/media/Project5.ab1fffb071f968add377.png",
     "static/media/jorge_lozano.jpg": "/upe-website/static/media/jorge_lozano.67221831720a3527582b.jpg",
     "static/media/logoRED.png": "/upe-website/static/media/logoRED.13b04f7bd35676ce8021.png",
     "index.html": "/upe-website/index.html",
     "static/media/user.svg": "/upe-website/static/media/user.277a6eebc516b75374ea97e374ae19a7.svg",
     "main.e6c13ad2.css.map": "/upe-website/static/css/main.e6c13ad2.css.map",
-    "main.3e153b09.js.map": "/upe-website/static/js/main.3e153b09.js.map",
+    "main.a39eec24.js.map": "/upe-website/static/js/main.a39eec24.js.map",
     "787.2fdd4a8d.chunk.js.map": "/upe-website/static/js/787.2fdd4a8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3e153b09.js"
+    "static/js/main.a39eec24.js"
   ]
 }
