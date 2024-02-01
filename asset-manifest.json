@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/upe-website/static/css/main.e6c13ad2.css",
-    "main.js": "/upe-website/static/js/main.b399dff0.js",
+    "main.js": "/upe-website/static/js/main.38cc88ad.js",
     "static/js/787.2fdd4a8d.chunk.js": "/upe-website/static/js/787.2fdd4a8d.chunk.js",
     "static/media/natalie_chen.jpg": "/upe-website/static/media/natalie_chen.4ebc7855f973a0c9564c.jpg",
     "static/media/andrew_pio_george.jpg": "/upe-website/static/media/andrew_pio_george.1ae972a2a18e1223b70a.jpg",
@@ -44,11 +44,11 @@
     "index.html": "/upe-website/index.html",
     "static/media/user.svg": "/upe-website/static/media/user.277a6eebc516b75374ea97e374ae19a7.svg",
     "main.e6c13ad2.css.map": "/upe-website/static/css/main.e6c13ad2.css.map",
-    "main.b399dff0.js.map": "/upe-website/static/js/main.b399dff0.js.map",
+    "main.38cc88ad.js.map": "/upe-website/static/js/main.38cc88ad.js.map",
     "787.2fdd4a8d.chunk.js.map": "/upe-website/static/js/787.2fdd4a8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b399dff0.js"
+    "static/js/main.38cc88ad.js"
   ]
 }
