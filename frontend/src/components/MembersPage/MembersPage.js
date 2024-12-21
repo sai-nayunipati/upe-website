@@ -27,7 +27,8 @@ function MembersPage() {
   };
 
   useEffect(() => {
-    const BACKEND_URL = "http://localhost:8080/students/";
+    const BACKEND_URL = "https://upe.sainayunipati.com/students/";
+    // 
   
     fetch(BACKEND_URL)
       .then(response => response.json())
