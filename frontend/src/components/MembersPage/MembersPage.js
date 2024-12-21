@@ -4,7 +4,6 @@ import {
   HStack,
   VStack,
   Text,
-  // Button,
   Collapse,
   Box,
   useBreakpointValue,
