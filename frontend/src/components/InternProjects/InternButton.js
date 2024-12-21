@@ -2,8 +2,6 @@ import { Text, Flex, } from "@chakra-ui/react";
 
 function InternBox() {
     return (
-        
-
         <Flex justifyContent="center">
             <Flex
                 w={{"base":"16em","md":"40em", "lg":"50em"}}

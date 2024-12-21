@@ -27,7 +27,7 @@ function AboutUs() {
                     What is UPE?
                 </Text>
                 <Text fontSize={{ base: "sm", sm: "md", lg: "lg" }} marginTop="0.5rem" lineHeight={{ base: "1.5", sm: "1.6", lg: "1.8" }}> {/* Reduced font size and added line height */}
-                    Upsilon Pi Epsilon (UPE) is a national honor society dedicated to fostering excellence in the fields of computing and information disciplines. At UPE BU Chapter, we are committed to enhancing the professional development of our members and cultivating their skills as computer scientists. We invite you to explore our core values outlined below.
+                Upsilon Pi Epsilon (UPE) is a prestigious national honor society dedicated to promoting excellence in computing and information disciplines. At the Boston University chapter of UPE, we are passionate about advancing the professional development of our members while nurturing their skills as future leaders in computer science. Explore our core values below to learn more about our mission and community.
                 </Text>
             </Box>
         </Flex>
