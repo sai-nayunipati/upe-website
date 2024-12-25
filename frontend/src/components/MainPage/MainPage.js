@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react"; 
+import { Box, Text, Flex } from "@chakra-ui/react";
 import Banner from "./BannerTop/Banner";
 import Cards from "./CardSect/Cards";
 import CTA from "./CTA/CTA";
@@ -6,59 +6,59 @@ import bannerImage from '../../assets_folder/banner3.jpg';
 
 function MainPage() {
     return (
-        <>          
-        <Box > {/* Set background color and minHeight to cover full page */}
-
-            <Box 
-                
-                position="relative" 
-                height={{ base: "-10px", md: "200px", lg: "250px" }} // Added lg height
-                textAlign="center"
+        <>
+            <Flex position="relative" paddingBottom="30px">
+                <Banner bannerImage={bannerImage} />
+                <Box
+                    position="absolute"
+                    top={{ base: "40%", sm: "35%", lg: "30%" }}
+                    left="50%"
+                    transform="translate(-50%, -30%)"
+                    borderRadius="8px"
+                    padding={{ base: "1rem", sm: "1.5rem", md: "2rem" }}
+                    width={{ base: "95%", sm: "90%", md: "90%" }}
+                    maxWidth={{ base: "1200px", sm: "1200px", md: "1200px" }}
+                    color="white"
+                    textAlign="center"
                 >
-                <Banner bannerImage={bannerImage} logo={true} />
-                
-                <Text 
-                    mt={{ base: "-30px", md: "-45px", lg: "-120px" }}
-                    fontSize={{ base: "6xl", md: "6xl", lg: "7xl" }}
-                    fontWeight="bold" 
-                    color="#ece7dc"
-                    textShadow="2px 2px 4px rgba(0, 0, 0, 0.3)"
-                    transform={{ base: "translateY(-300%)", md: "translateY(-400%)", lg: "translateY(-275%)" }}
+                    <Text
+                        fontSize={{ base: "6xl", md: "6xl", lg: "7xl" }}
+                        fontWeight="bold"
+                        color="#ece7dc"
+                        textShadow="2px 2px 4px rgba(0, 0, 0, 0.3)"
+                        wordBreak="break-word"
+                        lineHeight="1.2"
                     >
-                    <span style={{ color: '#ece7dc'}}>BU </span>
-                    <span style={{ color: '#880708'}}>U</span>
-                    <span style={{ color: '#ece7dc'}}>PSILON </span>
-                    <span style={{ color: '#880708'}}>P</span>
-                    <span style={{ color: '#ece7dc'}}>I </span>
-                    <span style={{ color: '#880708'}}>E</span>
-                    <span style={{ color: '#ece7dc'}}>PSILON</span>
-                </Text>
+                        <span style={{ color: '#ece7dc' }}>BU </span>
+                        <span style={{ color: '#880708' }}>U</span>
+                        <span style={{ color: '#ece7dc' }}>PSILON </span>
+                        <span style={{ color: '#880708' }}>P</span>
+                        <span style={{ color: '#ece7dc' }}>I </span>
+                        <span style={{ color: '#880708' }}>E</span>
+                        <span style={{ color: '#ece7dc' }}>PSILON</span>
+                    </Text>
 
-                <Text 
-                    fontSize={{ base: "2xl", md: "2.5xl", lg: "3xl" }}
-                    fontWeight="bold" 
-                    color="#ece7dc"
-                    textShadow="2px 2px 4px rgba(0, 0, 0, 0.3)"
-                    transform={{ base: "translateY(-1300%)", md: "translateY(-750%)", lg: "translateY(-690%)" }}
+                    <Text
+                        fontSize={{ base: "2xl", md: "2.5xl", lg: "3xl" }}
+                        fontWeight="bold"
+                        color="#ece7dc"
+                        textShadow="2px 2px 4px rgba(0, 0, 0, 0.3)"
                     >
-                    Your Gateway to CS Excellence
-                </Text>
-            </Box>      
-            
+                        Your Gateway to CS Excellence
+                    </Text>
+
+                </Box>
+            </Flex>
+
+            <Box
+            >
+                <Cards
+                    cardH={{ base: "20em", md: "25em", lg: "30em" }}
+                />
             </Box>
 
-            
-            <Box
-             marginTop={{ base: "-140px", md: "430px", lg: "100px" }} 
-             marginBottom={{ base: "-5rem", md: "-24rem", lg: "-18rem" }}
-            > 
-                <Cards
-                cardH={{ base: "20em", md: "25em", lg: "30em" }}
-                />
-            </Box>  
 
-            
-            <CTA             />
+            <CTA />
 
         </>
     );

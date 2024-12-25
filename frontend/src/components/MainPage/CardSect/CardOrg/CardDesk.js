@@ -9,8 +9,6 @@ function CardDesk() {
     <Flex
       justifyContent="center"
       alignItems="center"
-      mt={{ base: "2em", md: "2em", lg: "30em" }}
-      mb={{ base: "2em", md: "20em", lg: "15em" }}
       p={{ base: "2em", md: "3em", lg: "4em" }} // Add padding for smaller devices
     >
       <VStack spacing={{ base: "2em", md: "3em", lg: "4em" }} align="center">
@@ -19,20 +17,20 @@ function CardDesk() {
           flexWrap="wrap" // Allow wrapping of cards for smaller screens
           justify="center" // Center the cards in the HStack
         >
-          <CardFrame 
-            image={Image1} 
-            title="Develop Your Network" 
-            description="Our alumni have become full-time software engineers at companies like Google, Amazon and Microsoft." 
+          <CardFrame
+            image={Image1}
+            title="Develop Your Network"
+            description="Our alumni have become full-time software engineers at companies like Google, Amazon and Microsoft."
           />
-          <CardFrame 
-            image={Image2} 
-            title="Gain Marketable Experience" 
-            description="Build your development skills by making real contributions to chapter projects." 
+          <CardFrame
+            image={Image2}
+            title="Gain Marketable Experience"
+            description="Build your development skills by making real contributions to chapter projects."
           />
-          <CardFrame 
-            image={Image3} 
-            title="Explore Computer Science" 
-            description="Participate in our workshops and seminars to strengthen your theoretical knowledge" 
+          <CardFrame
+            image={Image3}
+            title="Explore Computer Science"
+            description="Participate in our workshops and seminars to strengthen your theoretical knowledge"
           />
         </HStack>
       </VStack>
