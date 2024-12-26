@@ -14,7 +14,7 @@ function CTA() {
     >
       <Flex
         bg="#880708"
-        width={{ base: "60%", sm: "60%", md: "60%", lg: "65%" }} 
+        width={{ base: "60%", sm: "60%", md: "60%", lg: "50%" }} 
         height={{ base: "auto", md: "20em", lg: "25em" }} // Decreased height for medium and large screens
         marginTop={{ base: "2em", sm: "3em", md: "4em", lg: "5em" }}
         justifyContent="center"
