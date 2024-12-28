@@ -9,8 +9,7 @@ function CardDesk() {
     <Flex
       justifyContent="center"
       alignItems="center"
-      mt={{ base: "2em", md: "2em", lg: "30em" }}
-      mb={{ base: "2em", md: "20em", lg: "15em" }}
+     
       p={{ base: "2em", md: "3em", lg: "4em" }} // Add padding for smaller devices
     >
       <VStack spacing={{ base: "2em", md: "3em", lg: "4em" }} align="center">
